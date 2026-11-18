@@ -1,0 +1,29 @@
+Umbra Vault 1.1.1 — third-party notices
+
+CPython 3.12.14 — Python Software Foundation License.
+Source: https://www.python.org/downloads/release/python-31214/
+
+Qt 6.12.0, PySide6 Essentials 6.12.0 and Shiboken6 6.12.0 — distributed as
+separate dynamic modules under the GNU Lesser General Public License v3.
+Qt licensing: https://doc.qt.io/qt-6.12/licensing.html
+Qt corresponding sources and binaries:
+https://download.qt.io/official_releases/qt/6.12/6.12.0/
+PySide6 and Shiboken6 corresponding sources:
+https://code.qt.io/cgit/pyside/pyside-setup.git/tag/?h=v6.12.0
+The libraries retain their own terms. Their separate DLLs can be replaced
+with compatible builds. These notices do not impose terms on Umbra Vault.
+
+cryptography 50.0.2 — Apache 2.0 or BSD 3-Clause.
+Bundled dependencies, including OpenSSL, are identified by cryptography's notices.
+https://pypi.org/project/cryptography/50.0.2/
+argon2-cffi 25.1.0 and argon2-cffi-bindings 26.2.0 — MIT.
+https://pypi.org/project/argon2-cffi/25.1.0/
+https://pypi.org/project/argon2-cffi-bindings/26.2.0/
+cffi 2.1.1 — MIT-0. pycparser 3.12 — BSD 3-Clause.
+https://pypi.org/project/cffi/2.1.1/
+https://pypi.org/project/pycparser/3.12/
+
+PyInstaller 6.22.3 — GPL v2 or later with a bootloader exception.
+https://pyinstaller.org/en/stable/license.html
+Inno Setup 6.7.4 builds the installer under its own terms.
+https://jrsoftware.org/inno-setup

@@ -1,0 +1,1 @@
+"""Umbra Vault desktop application."""

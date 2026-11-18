@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "umbra-vault"
+version = "1.1.1"
+description = "Secure Offline Password Manager"
+authors = [{ name = "Umbra" }]
+requires-python = ">=3.12"
+dependencies = ["PySide6-Essentials>=6.8,<7", "cryptography>=50,<51", "argon2-cffi>=25.1,<26"]
+
+[project.gui-scripts]
+umbra-vault = "app.main:main"
+
+[tool.setuptools.packages.find]
+include = ["app*"]
+
+[tool.setuptools.package-data]
+"app.ui" = ["qml/*.qml", "components/*.qml", "themes/*.qml", "themes/qmldir", "assets/umbra.ico", "assets/umbra.png"]
